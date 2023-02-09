@@ -1,0 +1,115 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('images/donation6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.top-text-container {
+    text-align: center;
+    color: white;
+    width: 60%;
+}
+
+.top-text-container h1 {
+    font-weight: bold;
+    font-size: 65px;
+    margin-bottom: 0px;
+}
+
+.top-text-container p {
+    font-size: 18px;
+    text-align: center;
+    padding: 0px 80px;
+    padding-bottom: 30px;
+}
+
+.link-btn {
+    text-decoration: none;
+    color: white;
+    background: #FF5959;
+    border-radius: 5px;
+    padding: 16px 12px;
+}
+
+.amount-section{
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+.amount-heading {
+    width: 70%;
+}
+
+.amount-heading h1 {
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+}
+
+.amount-heading p {
+    font-size: 18px;
+    color: #707070;
+    padding: 0px 40px;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+.card {
+    padding: 25px 44px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    margin-right: 50px;
+}
+
+.select-card {
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+}
+.amount-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.amount-input input{
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #DADADA;
+    text-align: center;
+    font-size: 18px;
+    color: #B3B3B3;
+    margin: 30px 0px;
+}
+.food-card{
+    padding: 50px 23px;
+    border-radius: 5px;
+}
+.food-blue{
+    background-color: rgba(79, 157, 166, 0.1);
+    margin-right: 25px;
+}
+.food-pink{
+    background: rgba(255, 89, 89, 0.1);
+    margin-right: 25px;
+}
+.food-yellow{
+    background: #FFF4D6;
+}
