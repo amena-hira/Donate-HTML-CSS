@@ -1,6 +1,7 @@
 body {
     font-family: 'Inter', sans-serif;
     margin: 0;
+    max-width: 100%;
 }
 
 .flex-container {
@@ -43,13 +44,14 @@ body {
     padding: 16px 12px;
 }
 
-.amount-section{
-    width: 70%;
+.amount-section {
+    width: 60%;
     margin: 0 auto;
-    padding: 20px 0px;
+    padding: 30px 0px;
 }
+
 .amount-heading {
-    width: 70%;
+    width: 80%;
 }
 
 .amount-heading h1 {
@@ -69,26 +71,28 @@ body {
     display: flex;
     margin-bottom: 50px;
     margin-top: 40px;
+    gap: 15px;
 }
 
 .card {
     padding: 25px 44px;
     background: #FAFAFA;
     border-radius: 5px;
-    margin-right: 50px;
 }
 
 .select-card {
     background: #FFEEEE;
     border: 2px solid #FF5959;
 }
-.amount-input{
+
+.amount-input {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.amount-input input{
+
+.amount-input input {
     display: block;
     width: 100%;
     border: none;
@@ -98,18 +102,91 @@ body {
     color: #B3B3B3;
     margin: 30px 0px;
 }
-.food-card{
+.width-section{
+    width: 80%;
+    margin: 0 auto;
+}
+.food-card {
     padding: 50px 23px;
     border-radius: 5px;
 }
-.food-blue{
+
+.food-blue {
     background-color: rgba(79, 157, 166, 0.1);
     margin-right: 25px;
 }
-.food-pink{
+
+.food-pink {
     background: rgba(255, 89, 89, 0.1);
     margin-right: 25px;
 }
-.food-yellow{
+
+.food-yellow {
     background: #FFF4D6;
+}
+
+.donation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.half-width {
+    width: 50%;
+    padding-right: 50px;
+}
+
+.half-width img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.half-width h1 {
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0px;
+}
+.half-width p{
+    font-size: 18px;
+    color: #707070;
+}
+.second-paragraph{
+    padding-bottom: 10px;
+}
+.donation-flex{
+    flex-direction: row-reverse;
+    margin-top: 60px;
+}
+
+.subscribe-div{
+    padding: 76px 188px;
+    background-color: #FFF4D6;
+    text-align: center;
+    display: flex;
+    margin-bottom: 80px;
+}
+.email-field{
+    padding: 17px 8px;
+    width: 70%;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+}
+.subscribe-div a{
+    border-radius: 0px 5px 5px 0px;
+}
+
+.footer-section{
+    text-align: center;
+    padding: 42px 550px;
+    background-color: black;
+    color: white;
+}
+.footer-section h1{
+    color: #FF5959;
+    font-size: 46px;
+    font-family: Lobster;
+    width: 100%;
 }
